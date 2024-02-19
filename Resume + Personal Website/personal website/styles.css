@@ -1,0 +1,124 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e7e0d6; /* Neutral beige tone */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #af88cd; /* Green color */
+    color: #fff; /* White text color */
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 50px 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container h2 {
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  /* Skill Styles */
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    width: 150px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff; /* White background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center;
+  }
+  
+  .skill img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  /* Project Styles */
+  .projects-container .project {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .projects-container .project h3 {
+    color: #333; /* Dark text color */
+  }
+  
+  /* Education Styles */
+  .education-container .education {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .education-container .education h3 {
+    color: #333; /* Dark text color */
+  }
+  
+  .education-container .education p {
+    color: #555; /* Darker text color */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
